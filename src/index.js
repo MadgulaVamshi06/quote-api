@@ -13,6 +13,16 @@ app.set('trust proxy', true);
 
 app.use(logger);
 
+app.get('/', (req, res) => {
+  res.json({
+    message: "👋 Welcome to the Quote API!",
+    endpoints: {
+      randomQuote: "/api/quote",
+      docs: "/docs"
+    }
+  });
+});
+
 /**
  * @swagger
  * /api/quote:
