@@ -29,7 +29,7 @@ If rate limit exceeded:
 ### Swagger Docs
 Visit [https://quote-api-qyjl.onrender.com/docs/](https://quote-api-qyjl.onrender.com/docs/) for interactive API documentation.
 
-## Example
+## Live
 ```bash
-curl https://quote-api-qyjl.onrender.com/api/quote
+ https://quote-api-qyjl.onrender.com/api/quote
 ```
