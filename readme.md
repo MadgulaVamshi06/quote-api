@@ -27,9 +27,9 @@ If rate limit exceeded:
 ```
 
 ### Swagger Docs
-Visit [http://localhost:3000/docs](http://localhost:3000/docs) for interactive API documentation.
+Visit [https://quote-api-qyjl.onrender.com/docs/](https://quote-api-qyjl.onrender.com/docs/) for interactive API documentation.
 
 ## Example
 ```bash
-curl http://localhost:3000/api/quote
+curl https://quote-api-qyjl.onrender.com/api/quote
 ```
